@@ -6,6 +6,7 @@ import Lists from './components/ListsAndScrollView/index';
 import FlatList from './components/Flatlist';
 import TouchableNative from './components/Touchable';
 import NativeStyle from './components/Styles';
+import NativeAlert from './components/Alert';
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <FlatList/> */}
       {/* <TouchableNative /> */}
 
-      <NativeStyle />
+      {/* <NativeStyle /> */}
+      <NativeAlert/>
 
       <StatusBar style="auto" />
     </View>
