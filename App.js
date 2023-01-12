@@ -9,6 +9,11 @@ import NativeStyle from './components/Styles';
 import NativeAlert from './components/Alert';
 import Images from './components/Images';
 import DiceApp from './components/Images/dice';
+import AlertDialog from './components/AlertDialog';
+import DismissKeyboard from './components/DismissKeyboard';
+import Counter from './components/UseEffectCounter';
+import FlexBox from './components/Flex';
+import ModalNative from './components/Modal';
 
 export default function App() {
   return (
@@ -23,9 +28,15 @@ export default function App() {
       {/* <NativeStyle /> */}
       {/* <NativeAlert/> */}
       {/* <Images/> */}
-      <DiceApp/>
-
+      {/* <DiceApp/> */}
+      {/* <AlertDialog/> */}
+      {/* <DismissKeyboard/> */}
+      {/* <Counter /> */}
+      {/* <FlexBox /> */}
       
+      <ModalNative />
+
+
       <StatusBar style="auto" />
     </View>
   );
