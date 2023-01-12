@@ -7,6 +7,8 @@ import FlatList from './components/Flatlist';
 import TouchableNative from './components/Touchable';
 import NativeStyle from './components/Styles';
 import NativeAlert from './components/Alert';
+import Images from './components/Images';
+import DiceApp from './components/Images/dice';
 
 export default function App() {
   return (
@@ -19,8 +21,11 @@ export default function App() {
       {/* <TouchableNative /> */}
 
       {/* <NativeStyle /> */}
-      <NativeAlert/>
+      {/* <NativeAlert/> */}
+      {/* <Images/> */}
+      <DiceApp/>
 
+      
       <StatusBar style="auto" />
     </View>
   );
