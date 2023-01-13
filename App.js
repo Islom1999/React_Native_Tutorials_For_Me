@@ -14,6 +14,10 @@ import DismissKeyboard from './components/DismissKeyboard';
 import Counter from './components/UseEffectCounter';
 import FlexBox from './components/Flex';
 import ModalNative from './components/Modal';
+import SwitchNative from './components/Switch';
+import IndicatorAcrivity from './components/ActivityIndicator';
+import SectionListNative from './components/SectionList';
+import PrisableNative from './components/Prisable';
 
 export default function App() {
   return (
@@ -33,9 +37,12 @@ export default function App() {
       {/* <DismissKeyboard/> */}
       {/* <Counter /> */}
       {/* <FlexBox /> */}
-      
-      <ModalNative />
 
+      {/* <ModalNative /> */}
+      {/* <SwitchNative /> */}
+      {/* <IndicatorAcrivity/> */}
+      {/* <SectionListNative/> */}
+      <PrisableNative/>
 
       <StatusBar style="auto" />
     </View>
