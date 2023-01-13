@@ -19,6 +19,11 @@ import IndicatorAcrivity from './components/ActivityIndicator';
 import SectionListNative from './components/SectionList';
 import PrisableNative from './components/Prisable';
 import RefleshControll from './components/RefleshControll';
+import InputAccessory from './components/InputAcsessoryView';
+import TouchableFeedback from './components/TouchableNativeFeedback';
+import AppearnseNative from './components/Appearence';
+import Platforms from './components/Platforms';
+import AnimatedLibrary from './components/AnimatedLibrary';
 
 export default function App() {
   return (
@@ -44,7 +49,13 @@ export default function App() {
       {/* <IndicatorAcrivity /> */}
       {/* <SectionListNative /> */}
       {/* <PrisableNative /> */}
-      <RefleshControll />
+      {/* <RefleshControll /> */}
+      {/* <InputAccessory /> */}
+
+      {/* <TouchableFeedback /> */}
+      {/* <AppearnseNative /> */}
+      {/* <Platforms /> */}
+      <AnimatedLibrary />
       
 
       <StatusBar style="auto" />
