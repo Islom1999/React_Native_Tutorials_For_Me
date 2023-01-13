@@ -18,6 +18,7 @@ import SwitchNative from './components/Switch';
 import IndicatorAcrivity from './components/ActivityIndicator';
 import SectionListNative from './components/SectionList';
 import PrisableNative from './components/Prisable';
+import RefleshControll from './components/RefleshControll';
 
 export default function App() {
   return (
@@ -30,7 +31,7 @@ export default function App() {
       {/* <TouchableNative /> */}
 
       {/* <NativeStyle /> */}
-      {/* <NativeAlert/> */}
+      {/* <NativeAlert /> */}
       {/* <Images/> */}
       {/* <DiceApp/> */}
       {/* <AlertDialog/> */}
@@ -40,9 +41,11 @@ export default function App() {
 
       {/* <ModalNative /> */}
       {/* <SwitchNative /> */}
-      {/* <IndicatorAcrivity/> */}
-      {/* <SectionListNative/> */}
-      <PrisableNative/>
+      {/* <IndicatorAcrivity /> */}
+      {/* <SectionListNative /> */}
+      {/* <PrisableNative /> */}
+      <RefleshControll />
+      
 
       <StatusBar style="auto" />
     </View>
