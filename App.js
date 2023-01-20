@@ -28,6 +28,10 @@ import PlatformColorNative from './components/PlatformColor';
 import DrawerLayout from './components/DrawerLayoutAndroid';
 import Transforms from './components/Transforms';
 import BackHandlerNative from './components/BackHandler';
+import ActionSheetIOSNative from './components/ActionSheetIOS';
+import Prompt from './components/Prompt';
+import VibrationNative from './components/Vibration';
+import SliderNative from './components/Slider';
 
 export default function App() {
   return (
@@ -64,7 +68,11 @@ export default function App() {
       {/* <DrawerLayout /> */}
       {/* <Transforms /> */}
 
-      <BackHandlerNative />
+      {/* <BackHandlerNative /> */}
+      {/* <ActionSheetIOSNative /> */}
+      {/* <Prompt /> */}
+      {/* <VibrationNative /> */}
+      <SliderNative />
       
 
       <StatusBar style="auto" />
