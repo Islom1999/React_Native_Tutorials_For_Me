@@ -32,6 +32,11 @@ import ActionSheetIOSNative from './components/ActionSheetIOS';
 import Prompt from './components/Prompt';
 import VibrationNative from './components/Vibration';
 import SliderNative from './components/Slider';
+import AvatarNative from './components/Elements/Avatar';
+import BadgeNative from './components/Elements/Badge';
+import ButtonComponent from './components/Elements/Button';
+import CheckBoxComponent from './components/Elements/CheckBox';
+import InputComponent from './components/Elements/Input';
 
 export default function App() {
   return (
@@ -72,7 +77,15 @@ export default function App() {
       {/* <ActionSheetIOSNative /> */}
       {/* <Prompt /> */}
       {/* <VibrationNative /> */}
-      <SliderNative />
+
+      {/* <SliderNative /> */}
+
+      {/* <AvatarNative /> */}
+      {/* <BadgeNative /> */}
+      {/* <ButtonComponent/> */}
+      {/* <CheckBoxComponent/> */}
+      <InputComponent/>
+
       
 
       <StatusBar style="auto" />
