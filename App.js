@@ -24,6 +24,10 @@ import TouchableFeedback from './components/TouchableNativeFeedback';
 import AppearnseNative from './components/Appearence';
 import Platforms from './components/Platforms';
 import AnimatedLibrary from './components/AnimatedLibrary';
+import PlatformColorNative from './components/PlatformColor';
+import DrawerLayout from './components/DrawerLayoutAndroid';
+import Transforms from './components/Transforms';
+import BackHandlerNative from './components/BackHandler';
 
 export default function App() {
   return (
@@ -55,7 +59,12 @@ export default function App() {
       {/* <TouchableFeedback /> */}
       {/* <AppearnseNative /> */}
       {/* <Platforms /> */}
-      <AnimatedLibrary />
+      {/* <AnimatedLibrary /> */}
+      {/* <PlatformColorNative /> */}
+      {/* <DrawerLayout /> */}
+      {/* <Transforms /> */}
+
+      <BackHandlerNative />
       
 
       <StatusBar style="auto" />
