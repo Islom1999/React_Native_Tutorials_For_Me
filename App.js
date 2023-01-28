@@ -37,6 +37,11 @@ import BadgeNative from './components/Elements/Badge';
 import ButtonComponent from './components/Elements/Button';
 import CheckBoxComponent from './components/Elements/CheckBox';
 import InputComponent from './components/Elements/Input';
+import OverlayComponent from './components/Elements/Overlay';
+import Pricing from './components/Elements/PrisingCard';
+import FAB from './components/Elements/FAB';
+import SpeedDialNative from './components/Elements/SpeesDial';
+import SocialIcons from './components/Elements/SocialIcon';
 
 export default function App() {
   return (
@@ -84,7 +89,12 @@ export default function App() {
       {/* <BadgeNative /> */}
       {/* <ButtonComponent/> */}
       {/* <CheckBoxComponent/> */}
-      <InputComponent/>
+      {/* <InputComponent/> */}
+      {/* <OverlayComponent/> */}
+      {/* <Pricing/> */}
+      {/* <FAB/> */}
+      {/* <SpeedDialNative/> */}
+      <SocialIcons/>
 
       
 
